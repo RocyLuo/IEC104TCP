@@ -1,5 +1,6 @@
 # IEC104TCP
 IEC104 client and server simulator
+
 So far, the IEC104 simulator can only support certain client to server side protocol based on IEC 60870-5-104. The supported frames are u frame, s frame and i frame in which asud types are 45,46,47,48,49,50,51,58,59,60,61,62,63,64,101 and 103. 
 
 The way to build IEC104 packets is shown in the iec104_tcp_packets.py file. The packet structure is build based on SCAPY. So, make sure your machine has SCAPY installed. Also, there is an example to show how to use the iec104client to send some IEC104 packets. 
